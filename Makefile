@@ -17,4 +17,4 @@ clean:
 install:
 	${INSTALL} -Dm755 ${PROG} ${DESTDIR}/usr/bin/${PROG}
 
-.DUMMY: clean
+.PHONY: clean
